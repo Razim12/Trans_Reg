@@ -4,7 +4,7 @@ import json
 class transactionregister:
 
     def __init__(self):
-        self.transaction = []
+        self.transactions = []
 
     def add_transaction(self, name, id):
         new_transaction = {}
@@ -16,7 +16,7 @@ class transactionregister:
 
     def del_transaction(self, name):
         found = False
-        for idx, transsaction in enumerate(self.transactions):
+        for idx, transaction in enumerate(self.transactions):
             if transaction["name"] == name:
                 index = idx
                 found = True
