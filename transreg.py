@@ -20,7 +20,7 @@ class transactionregister:
             if transaction["name"] == name:
                 index = idx
                 found = True
-                del self.transaction[idx]
+                del self.transactions[idx]
         print("transactions: {0}".format(json.dumps(self.transactions)))
         return found
 
