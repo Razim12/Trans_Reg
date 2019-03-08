@@ -5,7 +5,7 @@ from addhandler import AddHandler
 from delhandler import DelHandler
 from gethandler import GetHandler
 
-transactions = transaction()
+transactions = transationregister()
 
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
