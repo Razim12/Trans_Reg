@@ -1,1 +1,1 @@
-# trans_reg
+# Simple Python code
